@@ -1,0 +1,12 @@
+# vim: sw=2 sta et ai:
+# You should replace folders in this configuration with the actual folders
+
+apps:
+  name: boot-hello
+  cwd: $HOME/apps/boot-hello
+  script: ./bin/boot-hello
+  interpreter: bash
+  out_file: $HOME/logs/boot-hello/boot-hello.log
+  error_file: $HOME/logs/boot-hello/boot-hello.log
+  combine_logs: true
+  kill_timeout: 300000
